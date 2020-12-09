@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --container-width: 550px;
+    --container-height: 600px;
+}
+
+.span1 {
+    display: flex;
+    font-size: 20px;
+    justify-content: left;
+    color: black;
+
+}
+
+.span2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: brown;
+}
+
+.text-hor {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(-90deg);
+
+}
+
+tr th, tr td:first-of-type {
+    background-color: #b7eb8f !important;
+}
+
+.mygrid {
+    padding: 0;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+
+    border: 2px solid whitesmoke;
+}
+
+.grid-elem-center {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: var(--container-height);
+
+}
+
+.grid-elem {
+    display: flex;
+    justify-content: center;
+
+    width: var(--container-width);
+    height: var(--container-height);
+}
+
+.alfa {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 22px;
+}
+
+.beta {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: green;
+}
+
+.calc-text {
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    word-wrap: anywhere;
+    line-height: 50%;
+    overflow: scroll;
+}
+
+.output {
+    flex-direction: column;
+    align-items: center;
+}
+
+.pag {
+    background-color: whitesmoke;
+}
+
+.button {
+    position: relative;
+    top: -18px;
+}
